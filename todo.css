@@ -1,0 +1,152 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.container{
+    background:linear-gradient(135deg , blue , #ff0000 );
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    padding-top:4rem;
+    
+}
+.head h1{
+    text-align: center;
+    font-weight: 800;
+}
+.img1{
+    height: 3rem;
+    width: 3rem;
+}
+.head{
+    height: auto;
+    width: 30rem;
+    border-radius: 5px;
+    background-color: white;
+    justify-content: center;
+    margin-left:25rem;
+    outline: black;
+    box-shadow: black;
+  
+    
+}
+.content{
+    display: flex;
+}
+.inp{
+    height: 2.5rem;
+    width: 100%;
+    background-color: rgba(171, 165, 165, 0.417);
+    border-radius: 15px;
+    padding-left: 20px;
+    flex: 1;
+    outline: none;
+    border: none;
+}
+.inp::placeholder{
+    font-size: medium;
+   
+}
+.btn{
+    height: 2rem ;
+    width: 8rem;
+    border-color: green;
+    background-color: rgba(0, 128, 0, 0.899);
+    text-align: center;
+    font-weight: bold;
+    margin-left: 4rem;
+    margin-top: 0rem;
+    border-radius: 10px;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.first{
+    /* background-color: aliceblue; */
+    width:100%;
+    height: 3.1rem;
+    display: flex;
+    padding: 5px;
+}
+
+ul{
+    margin-left: 8px;
+}
+/* .rem{
+    height: 1.2rem ;
+    width: 3rem;
+    justify-content: right;
+    background-color:inherit; 
+    inherit is used to remove btns default color
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: 20rem;
+    font-size: xx-small;
+    cursor: pointer;
+   
+   
+   
+
+}
+li.rem{
+    padding-top: 1px;
+} */
+
+
+
+ul li{
+    list-style: none;
+    padding: 19px 50px 10px 50px;
+    user-select: none;
+    font-size: medium;
+    font-weight: 700;
+    position: relative;
+    
+    display: block;
+    
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height:20px;
+    width: 20px;
+    background-image: url(icons/radio_button_unchecked_24dp_FILL0_wght400_GRAD0_opsz24.png);
+    background-size:cover;
+    border-radius:50%;
+    margin: 0 10px;
+    left: 0;
+}
+ul li.check{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.check::before{
+    background-image: url(icons/check-mark-in-green-circle-icon-flat-design-vector.jpg);
+    
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: #edeef0;
+}
+
+p{
+    background-color: beige;
+}
+
+
